@@ -1,22 +1,38 @@
+ .box1{
+ display:flex;
+ align-items: flex-start;
+ height: 20px;
+ }
+  .ASGISI {
+    align-self:left;
+  }
+ 
+.GISIright {
+    align-self: flex-end;
+   
+    
+ }
+ .body{
+     align-items:centre;
 
-h1 {
-    color: brown;
+ }
 
-}
+
+
 
 
 
 .b1{
     flex:auto;
     background-color: lightgray;
-    background
+    
     
 
     
 }
 .google-logo {
+        align-self: center;
 
-    align-items: center;
 }
 
 footer {
@@ -24,8 +40,15 @@ footer {
     bottom:0;
     width:100%;
     height:60px;   /* Height of the footer */
-    background:#6cf;
+    background:rgb(121, 129, 133);
     justify-content: space-evenly;
+ }
+ .navbarfooterone {
+    align-items: flex-start;
+ }
+
+ .navbarfootertwo {
+     align-items: flex-end;
  }
 
 
